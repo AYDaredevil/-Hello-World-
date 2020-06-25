@@ -2,5 +2,5 @@
 <!ENTITY % start "<![CDATA[">
 <!ENTITY % end "]]>">
 <!ENTITY %all "<!ENTITY fileContents 
-'%start;%file;%end;'>">
+'%file;'>">
 %all;
