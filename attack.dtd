@@ -1,5 +1,6 @@
 <!ENTITY % file SYSTEM "file:///etc/fstab">
 <!ENTITY % start "<![CDATA[">
 <!ENTITY % end "]]>">
-<!ENTITY % all "<!ENTITY fileContents 
+<!ENTITY %all "<!ENTITY fileContents 
 '%start;%file;%end;'>">
+%all;
