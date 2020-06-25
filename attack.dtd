@@ -1,6 +1,6 @@
 <!ENTITY % file "amit">
 <!ENTITY % start "<![CDATA[">
 <!ENTITY % end "]]>">
-<!ENTITY %all "<!ENTITY fileContents 
+<!ENTITY % all "<!ENTITY fileContents 
 '%file;'>">
 %all;
