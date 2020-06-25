@@ -1,5 +1,5 @@
 <!ENTITY % start "<![CDATA[">
-<!ENTITY % mid "Amit">
+<!ENTITY % mid SYSTEM "file:/etc/hostname">
 <!ENTITY % end "]]>">
 <!ENTITY % all "<!ENTITY fileContents '%start;%mid;%end;'>">
 %all;
