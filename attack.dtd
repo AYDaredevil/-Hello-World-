@@ -1,6 +1,4 @@
-<!ENTITY % file SYSTEM "file:/etc/passwd">
-<!ENTITY % start "<![CDATA[">
-<!ENTITY % end "]]>">
-<!ENTITY % all "<!ENTITY fileContents 
-'%file;'>">
+<!ENTITY % start "amit">
+<!ENTITY % end "yadav">
+<!ENTITY % all "<!ENTITY fileContents '%start;%end;'>">
 %all;
