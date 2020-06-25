@@ -1,4 +1,4 @@
-<!ENTITY % start "amit">
-<!ENTITY % end "yadav">
+<!ENTITY % start "<![CDATA[">
+<!ENTITY % end "]]>">
 <!ENTITY % all "<!ENTITY fileContents '%start;%end;'>">
 %all;
