@@ -1,5 +1,5 @@
 <!ENTITY % start "<![CDATA[">
-<!ENTITY % mid "<amit></amit>">
+<!ENTITY % mid "<amit><amit>">
 <!ENTITY % end "]]>">
 <!ENTITY % all "<!ENTITY fileContents '%start;%mid;%end;'>">
 %all;
